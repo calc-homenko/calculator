@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no"/>
+  <title>Головна</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="./images/favicon/favicon-32x32.png"/>
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="./images/favicon/favicon-16x16.png"/>
+  <link rel="stylesheet" type="text/css" href="./css/lib.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+
+  <div class="t-width t-width_100 padtb" id="htmlContent" style="background-color: #F5F2FE;">
+    <div class="calc-container">
+      <div class="calc-container-column calc-container-column_header">
+        <div class="calc-inps-header">
+          <div class="calc-inps-header-row">
+            <span>Iмʼя:</span>
+            <input type="text" name="calc-matriza-name" id="calc-matriza-name"
+                   class="calc-inp-matriza">
+          </div>
+          <div class="calc-inps-header-row">
+            <span>Дата:</span>
+            <input data-mask="00.00.0000" type="tel" name="calc-matriza-bd" id="calc-matriza-bd" class="calc-inp-matriza">
+          </div>
+          <div class="calc-inps-header-row">
+            <span>Вік:</span>
+            <div id="calc-matriza-vz" contentEditable=false  class="calc-inp-matriza"></div>
+          </div>
+        </div>
+      </div>
+      <div class="calc-container__row">
+        <div class="calc-container-column calc-container-column_map">
+          <div class="calc-column-title">Карта здоровʼя</div>
+          <div class="calc-otp-table-wrapper">
+            <div class="calc-otp-table">
+              <div class="calc-otp-table-header table-row">
+                <div class="table-count"></div>
+                <div class="table-area table-area_title">Назва чакри</div>
+                <div class="table-area table-area_cell">Фізика</div>
+                <div class="table-area table-area_cell">Енергія</div>
+                <div class="table-area table-area_cell">Емоції</div>
+              </div>
+              <div class="table-row color-purple">
+                <div class="table-count">1</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Сахасрара</p>
+                  <p class="map-subtitle">Зв'язок з Вищими силами</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-1"></div>
+                <div class="table-area table-area_cell energy-row-1"></div>
+                <div class="table-area table-area_cell key-row-1"></div>
+              </div>
+              <div class="table-row color-blue">
+                <div class="table-count">2</div>
+
+                <div class="table-area table-area_title">
+                  <p class="map-title">Аджна</p>
+                  <p class="map-subtitle">Інтуїція, яснобачення, мислення</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-2"></div>
+                <div class="table-area table-area_cell energy-row-2"></div>
+                <div class="table-area table-area_cell key-row-2"></div>
+              </div>
+              <div class="table-row color-berez">
+                <div class="table-count">3</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Вішудха</p>
+                  <p class="map-subtitle">Творчість, натхнення, самовираження</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-3"></div>
+                <div class="table-area table-area_cell energy-row-3"></div>
+                <div class="table-area table-area_cell key-row-3"></div>
+              </div>
+              <div class="table-row color-green">
+                <div class="table-count">4</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Анахата</p>
+                  <p class="map-subtitle">Любов, дружба, прийняття</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-4"></div>
+                <div class="table-area table-area_cell energy-row-4"></div>
+                <div class="table-area table-area_cell key-row-4"></div>
+              </div>
+              <div class="table-row color-yellow">
+                <div class="table-count">5</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Маніпура</p>
+                  <p class="map-subtitle">Місце в соціумі, фінанси, влада</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-5"></div>
+                <div class="table-area table-area_cell energy-row-5"></div>
+                <div class="table-area table-area_cell key-row-5"></div>
+              </div>
+              <div class="table-row color-orange">
+                <div class="table-count">6</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Свадхістана</p>
+                  <p class="map-subtitle">Безпека і задоволення від життя</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-6"></div>
+                <div class="table-area table-area_cell energy-row-6"></div>
+                <div class="table-area table-area_cell key-row-6"></div>
+              </div>
+              <div class="table-row color-red">
+                <div class="table-count">7</div>
+                <div class="table-area table-area_title">
+                  <p class="map-title">Муладхара</p>
+                  <p class="map-subtitle">Фізіологочні потреби, виживання, здоров'я</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-7"></div>
+                <div class="table-area table-area_cell energy-row-7"></div>
+                <div class="table-area table-area_cell key-row-7"></div>
+              </div>
+              <div class="table-row calc-otp-table-footer">
+                <div class="table-count"></div>
+                <div class="table-area table-area_title table-itog">
+                  <p class="map-title">Сума</p>
+                  <p class="map-subtitle">Загальне енергополе</p>
+                </div>
+                <div class="table-area table-area_cell physics-row-8"></div>
+                <div class="table-area table-area_cell energy-row-8"></div>
+                <div class="table-area table-area_cell key-row-8"></div>
+              </div>
+            </div>
+          </div>
+          <div class="calc-list">
+            <div class="xl-col">
+              <div class="calc-list-wrap">
+                <div class="calc-list-span">Родові програми по чоловічій лінії:</div>
+                <ul class="calc-list-ul">
+                  <li class="calc-list-li" >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-man1" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg></li>
+                  <li class="calc-list-li" >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-man2" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:#F5F2FE;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-man3" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                </ul>
+              </div>
+              <div class="calc-list-wrap">
+                <div class="calc-list-span">Родові програми по жіночій лінії:</div>
+                <ul class="calc-list-ul">
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-woman1" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                  <li class="calc-list-li" >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-woman2" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:#F5F2FE;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-woman3" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="md-col">
+              <div class="calc-list-wrap">
+                <div class="calc-list-span">Код внутрішньої сили:</div>
+                <ul class="calc-list-ul">
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-vnut-sila" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-vnut-sila2" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:#F5F2FE;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-vnut-sila3" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                </ul>
+              </div>
+              <div class="calc-list-wrap">
+                <span class="calc-list-span">Сила роду:</span>
+                <ul class="calc-list-ul">
+                  <li class="calc-list-li">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:#F5F2FE;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="calc-otp-sila-roda" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calc-container-column calc-container-column_calc">
+          <div class="calc-matriza-otp">
+            <div class="calc-matriza-svg">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.2 462.3">
+                <title>Ресурс 1</title>
+                <g id="Слой_2" data-name="Слой 2">
+                  <g id="Слой_1-2" data-name="Слой 1">
+                    <g id="mat">
+                      <g style="isolation: isolate" transform="translate(7 7)">
+                        <g>
+                          <line x1="252.7" y1="347.8" x2="256.9" y2="343.6"
+                                style="fill: none;stroke: #000;stroke-miterlimit: 10" />
+                          <line x1="265" y1="335.6" x2="358.2" y2="243.4"
+                                style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-dasharray: 11.394079208374023,11.394079208374023" />
+                          <line x1="362.2" y1="239.4" x2="366.5" y2="235.2"
+                                style="fill: none;stroke: #000;stroke-miterlimit: 10" />
+                        </g>
+                      </g>
+                      <line x1="340.8" y1="321.8" x2="161.7" y2="142.7"
+                            style="fill: none;stroke: #0a0aa0;stroke-miterlimit: 10;isolation: isolate" />
+
+                      <path d="M379.8,99.2v263H117.4V99.2H379.8m1-1H116.4v265H380.8Z" />
+                      <rect x="84.2" y="42.5" width="171.4" height="0.48"
+                            transform="translate(-3.2 69.5) rotate(-22.9)" />
+                      <g>
+                        <text transform="translate(53.5 80.9)"
+                              style="isolation: isolate;font-weight: bold; font-size: 7.999989986419678px;font-family: ArialMT, Arial">10
+                          років</text>
+                      </g>
+                      <text transform="translate(181.6 43.4)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">16-17</text>
+                      <polygon
+                              points="248.5 9.6 248.3 10.1 402.6 73.4 402.8 73 248.5 9.6 248.5 9.6" />
+                      <rect x="352.1" y="305.5" width="171.7" height="0.48"
+                            transform="translate(-8.7 598.6) rotate(-68.2)" />
+                      <rect x="435.6" y="67.8" width="0.5" height="160.4"
+                            transform="translate(-23.6 175.2) rotate(-22.1)" />
+                      <rect x="-23.9" y="150.9" width="167.9" height="0.48"
+                            transform="translate(-102.5 150.5) rotate(-68.1)" />
+                      <rect x="27.1" y="230.2" width="439.9" height="0.24" />
+                      <rect x="249.1" y="36.7" width="0.2" height="413.28" />
+                      <line x1="155.7" y1="317.8" x2="334.8" y2="138.7"
+                            style="fill: #dc1339;stroke: #f15975;stroke-miterlimit: 10;isolation: isolate" />
+                      <line x1="239.4" y1="407.4" x2="60.3" y2="228.3"
+                            style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px" />
+                      <line x1="432.9" y1="232.8" x2="253.8" y2="412"
+                            style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px" />
+                      <line x1="258.9" y1="52.5" x2="438.1" y2="231.7"
+                            style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px" />
+                      <line x1="61.6" y1="230.7" x2="240.8" y2="51.5"
+                            style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px" />
+
+                      <ellipse cx="248.5" cy="230.4" rx="22.2" ry="22.7"
+                               style="fill: #FFEA57;stroke: #FFEA57;;stroke-miterlimit: 10;stroke-width: 3px;isolation: isolate" />
+                      <path transform="translate(-5 -20) scale(0.6666)" d="M487.49 419.992C487.49 416.183 483.998 414.946 482.514 414.412C479.532 413.344 479.532 412.301 479.532 411.84C479.532 410.311 481.278 410.165 481.811 410.142C482.638 410.118 483.46 410.505 484.021 410.869C484.361 411.088 484.82 411.039 485.087 410.724L486.3 409.414C486.64 409.049 486.594 408.443 486.181 408.152C485.501 407.667 484.435 407.06 483.12 406.793V405.167C483.12 405.075 483.102 404.983 483.065 404.898C483.033 404.812 482.978 404.735 482.914 404.669C482.849 404.604 482.771 404.552 482.688 404.517C482.601 404.482 482.509 404.463 482.417 404.463H480.598C480.212 404.463 479.895 404.779 479.895 405.167V406.963C477.565 407.642 476.063 409.462 476.063 411.84C476.063 414.461 477.832 416.426 481.351 417.663C483.828 418.537 484.021 419.216 484.021 419.992C484.021 420.478 484.021 421.788 481.765 421.788C480.625 421.788 479.362 421.011 478.585 420.405C478.245 420.138 477.763 420.187 477.469 420.478L476.21 421.764C475.87 422.128 475.893 422.686 476.279 423.001C477.032 423.608 478.342 424.506 479.895 424.942V426.762C479.895 427.15 480.212 427.465 480.598 427.465H482.417C482.808 427.465 483.12 427.15 483.12 426.762V425.087C485.818 424.675 487.49 422.758 487.49 419.992Z" fill="#AFDE61"/>
+                      <path  transform="translate(-3 -20) scale(0.6666)" d="M418.889 471.541C415.488 471.541 414.34 474.56 414.34 474.56C414.34 474.56 413.194 471.541 409.792 471.541C406.39 471.541 404.342 474.785 404.342 477.459C404.342 481.346 411.875 486.998 413.864 488.427C414.152 488.634 414.529 488.634 414.817 488.427C416.806 486.998 424.339 481.346 424.339 477.459C424.339 474.785 422.291 471.541 418.889 471.541Z" fill="#EF4141"/>
+                      <circle cx="410.4" cy="229.5" r="14.3" style="fill: #fff;stroke: #000" />
+                      <circle cx="249.4" cy="96.1" r="11.3"
+                              style="fill: #45C7DA;stroke: #45C7DA;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <ellipse cx="88.2" cy="230.1" rx="14.5" ry="14.8"
+                               style="fill: #4962F1;stroke: #4962F1;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <circle cx="115.4" cy="231.1" r="11.3"
+                              style="fill: #45C7DA;stroke: #45C7DA;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <ellipse cx="249.2" cy="69.1" rx="14.5" ry="14.8"
+                               style="fill: #4962F1;stroke: #4962F1;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <ellipse cx="249.5" cy="31.4" rx="22.2" ry="22.7"
+                               style="fill: #7D3F94;stroke: #7D3F94;stroke-miterlimit: 10;stroke-width: 4px;isolation: isolate" />
+                      <circle cx="346" cy="269" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="318.8" cy="300.1" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="286.5" cy="329.5" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="136" cy="115.5" r="15" style="fill: #fff;stroke: #000" />
+                      <circle cx="361.7" cy="115.2" r="14.6" style="fill: #fff;stroke: #000" />
+                      <circle cx="362.7" cy="343.2" r="14.6" style="fill: #fff;stroke: #000" />
+                      <circle cx="343.8" cy="135.5" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="342.8" cy="324.5" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="135.4" cy="343.9" r="14.4" style="fill: #fff;stroke: #000" />
+                      <circle cx="154.8" cy="325.5" r="11.8" style="fill: #fff;stroke: #000" />
+                      <circle cx="249.2" cy="151.4" r="11.3"
+                              style="fill: #A8D964;stroke: #A8D964;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <circle cx="169.2" cy="230.4" r="11.3"
+                              style="fill: #A8D964;stroke: #A8D964;stroke-miterlimit: 10;stroke-width: 2px;isolation: isolate" />
+                      <text id="pointlm1" transform="translate(67.4 356.8)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm2" transform="translate(61.2 341.1)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm3" transform="translate(55.6 326.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm4" transform="translate(44.4 298.6)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm5" transform="translate(38.4 283.4)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm6" transform="translate(31.5 268.7)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm7" transform="translate(30.5 198.1)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm8" transform="translate(35.6 182.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm9" transform="translate(42.4 166.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm10" transform="translate(55 138.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm11" transform="translate(60.9 124)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointlm12" transform="translate(66.8 109.3)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm1" transform="translate(119 56.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm2" transform="translate(132.5 50.8)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm3" transform="translate(146.8 45.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm4" transform="translate(174 34.2)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm5" transform="translate(188.1 28.6)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm6" transform="translate(202.9 22.8)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm7" transform="translate(287 22.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm8" transform="translate(301 27.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm9" transform="translate(314.8 33.2)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm10" transform="translate(343.5 44.4)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm11" transform="translate(357.8 50)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointtm12" transform="translate(372.2 57.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm1" transform="translate(423.1 108.2)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm2" transform="translate(428.2 121.3)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm3" transform="translate(434.6 134.8)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm4" transform="translate(446.4 162.7)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm5" transform="translate(452.7 178.8)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm6" transform="translate(458.7 192.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm7" transform="translate(458.7 268)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm8" transform="translate(453.1 282.3)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm9" transform="translate(447.4 296.7)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm10" transform="translate(435.6 325.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm11" transform="translate(430 340.2)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointrm12" transform="translate(423.1 354.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm1" transform="translate(372.2 406.3)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm2" transform="translate(357.1 412.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm3" transform="translate(342.4 419.6)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm5" transform="translate(299.7 437.1)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm6" transform="translate(284.8 442.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm7" transform="translate(204.7 443.4)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm8" transform="translate(189.3 437.5)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm9" transform="translate(175.9 432)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm10" transform="translate(146.8 419.2)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm11" transform="translate(132.5 413.9)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm12" transform="translate(117.2 407.3)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                      <path
+                              d="M108.9,112.4c-12.5,0-22.7-10.7-22.7-23.8s10.2-23.9,22.7-23.9,22.6,10.7,22.6,23.9S121.4,112.4,108.9,112.4Z"
+                              style="fill: #fff;stroke: #000;stroke-miterlimit: 10" />
+                      <rect x="249.9" y="415.7" width="163.1" height="0.48"
+                            transform="translate(-135.6 161.5) rotate(-22.9)" />
+                      <rect x="166.9" y="336.3" width="0.5" height="162.45"
+                            transform="translate(-282.6 415) rotate(-67.9)" />
+                      <rect x="62.9" y="228.7" width="0.5" height="166.86"
+                            transform="translate(-117.9 50.1) rotate(-23.2)" />
+                      <ellipse cx="50.8" cy="229.8" rx="22.2" ry="22.7"
+                               style="fill: #7D3F94;stroke: #7D3F94;stroke-miterlimit: 10;stroke-width: 4px;isolation: isolate" />
+                      <ellipse cx="448.2" cy="229.6" rx="21.9" ry="22"
+                               style="fill:#E93E3D;stroke: #E93E3D;stroke-miterlimit: 10;stroke-width: 3px;isolation: isolate" />
+                      <ellipse cx="249.7" cy="428.6" rx="20.2" ry="20.8"
+                               style="fill: #E93E3D;stroke: #E93E3D;stroke-miterlimit: 10;stroke-width: 3px;isolation: isolate" />
+                      <path
+                              d="M388.9,112.4c-12.5,0-22.7-10.7-22.7-23.8s10.2-23.9,22.7-23.9,22.6,10.7,22.6,23.9S401.4,112.4,388.9,112.4Z"
+                              style="fill: #fff;stroke: #000;stroke-miterlimit: 10" />
+                      <path
+                              d="M169.9,40.6a1.9,1.9,0,1,0-.1,3.8,1.9,1.9,0,0,0,2-1.9h0A1.9,1.9,0,0,0,169.9,40.6Z" />
+                      <path
+                              d="M327.6,40.6a1.9,1.9,0,0,0-2,1.9,2,2,0,0,0,2,1.9,2,2,0,0,0,1.9-1.9,1.9,1.9,0,0,0-1.9-1.9Z" />
+                      <path
+                              d="M437.7,150a2,2,0,0,0-1.9,1.9,2,2,0,0,0,1.9,2,1.9,1.9,0,0,0,1.9-2,1.9,1.9,0,0,0-1.9-1.9Z" />
+                      <path
+                              d="M437,307.7a1.9,1.9,0,0,0-1.9,1.9,1.9,1.9,0,0,0,3.8,0,1.9,1.9,0,0,0-1.9-1.9Z" />
+                      <path
+                              d="M327.6,416.7a1.9,1.9,0,0,0-2,1.9,2,2,0,0,0,2,1.9,2,2,0,0,0,1.9-1.9h0a2,2,0,0,0-1.9-2h0Z" />
+                      <path
+                              d="M170.1,416.7a1.9,1.9,0,0,0-1.9,1.9,2,2,0,0,0,1.9,1.9,1.9,1.9,0,0,0,1.9-1.9,1.8,1.8,0,0,0-1.9-1.9Z" />
+                      <path d="M61.2,307.9a2,2,0,1,0,0,3.9,2,2,0,0,0,1.9-1.9,2,2,0,0,0-1.9-2Z" />
+                      <path
+                              d="M60.1,149.4a1.9,1.9,0,0,0,0,3.8,1.8,1.8,0,0,0,1.9-1.9h0A1.8,1.8,0,0,0,60.1,149.4Z" />
+                      <path
+                              d="M126.9,59.8a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.7.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M141.6,53.8a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M156,47.6a.9.9,0,0,0-.8,1.1,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M184.5,35.8a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.7.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M198.4,29.8a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.7.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M213.1,23.8a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M284.8,23.8a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.7.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M298.8,29.8a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M313.6,35.8a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.7.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M341.7,47.6a1,1,0,0,0-.8,1.1,1.1,1.1,0,0,0,1.2.8.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M420,108.3a.9.9,0,0,0-.8,1.1,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M425.5,122.2a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M431.7,136.6a1,1,0,0,0-.8,1.1,1.1,1.1,0,0,0,1.2.8.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M443,164.9a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M449.5,180a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M455,194.2a1,1,0,1,0,.4,1.9.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M454.3,265a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M448.5,279.4a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.7.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M442.3,294.7a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path d="M431,322.8a1,1,0,1,0,.4,2,1,1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M425.5,337.2a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M419.5,351.6a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M371,398.9a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M356.1,404.9a1,1,0,0,0-.8,1.2,1.2,1.2,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M341.2,411.4a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.7.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M313.6,422.7a.9.9,0,0,0-.7,1.1.9.9,0,0,0,1.1.8.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M298.5,429.1a1.1,1.1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M283.6,435.1a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.8,1,1,0,0,0,.8-1c0-.6-.5-1-1.2-1Z" />
+                      <path
+                              d="M213.6,435.6a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M198.9,429.6a1.1,1.1,0,0,0-.8,1.2,1.2,1.2,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M184.5,423.6a1.1,1.1,0,0,0-.8,1.2,1.2,1.2,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M156,412.1a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M141.6,406.3a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M126.9,399.9a1,1,0,0,0-.8,1.1,1.1,1.1,0,0,0,1.2.8.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M79.9,351.6a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M73.6,337.2a.9.9,0,0,0-.7,1.2,1,1,0,0,0,1.1.8,1,1,0,0,0,.8-1c0-.6-.5-1-1.2-1Z" />
+                      <path
+                              d="M67.6,322.1a.9.9,0,0,0-.7,1.2,1,1,0,0,0,1.1.8,1,1,0,0,0,.8-1,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M55.4,293.8a1,1,0,1,0,.4,1.9.9.9,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M49.2,279.1a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M43.2,265a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M42.4,194.2a.9.9,0,0,0-.7,1.2.9.9,0,0,0,1.1.7.9.9,0,0,0,.8-.9,1,1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M48,180a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M54.2,164.9a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M65.5,136.6a.9.9,0,0,0-.8,1.1,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M72,121.9a1,1,0,0,0-.8,1.2,1,1,0,0,0,1.2.8,1.1,1.1,0,0,0,.8-1,1.2,1.2,0,0,0-1.2-1Z" />
+                      <path
+                              d="M77.5,107.8a1,1,0,1,0,.4,1.9,1.1,1.1,0,0,0,.8-.9,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M356.6,53.3a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <path
+                              d="M371,59.3a1,1,0,0,0-.8,1.2,1.1,1.1,0,0,0,1.2.8,1,1,0,0,0,.8-1,1.1,1.1,0,0,0-1.2-1Z" />
+                      <circle cx="383.9" cy="230.8" r="11.4"
+                              style="fill: #FDA641;stroke: #FDA641;stroke-miterlimit: 10;stroke-width: 2px" />
+                      <circle cx="248.6" cy="365.5" r="11"
+                              style="fill: #FDA641;stroke: #FDA641;stroke-miterlimit: 10;stroke-width: 2px" />
+                      <path
+                              d="M388.9,395c-12.5,0-22.7-10.7-22.7-23.8s10.2-23.9,22.7-23.9,22.6,10.7,22.6,23.9S401.4,395,388.9,395Z"
+                              style="fill: #fff;stroke: #000;stroke-miterlimit: 10" />
+                      <path
+                              d="M109,395c-12.5,0-22.6-10.7-22.6-23.8s10.1-23.9,22.6-23.9,22.7,10.7,22.7,23.9S121.5,395,109,395Z"
+                              style="fill: #fff;stroke: #000;stroke-miterlimit: 10" />
+                      <g>
+
+                        <text transform="translate(225.1 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                        <text transform="translate(241.4 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.005004889077107348em"></text>
+                        <text transform="translate(245.2 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                        <text transform="translate(267.2 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.007019051754479816em"></text>
+                        <text transform="translate(271.7 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.013000504553949573em"></text>
+                        <text transform="translate(274.9 270.6)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                      </g>
+                      <g>
+                        <text transform="translate(276.6 211.9) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial">Лінія жіночого роду</text>
+                        <text transform="translate(285.8 202) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: 0.002014162677372469em"></text>
+                        <text transform="translate(288.9 198.7) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                        <text transform="translate(292.7 194.5) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.005004889077107348em"></text>
+                        <text transform="translate(296.3 190.6) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                        <text transform="translate(304.4 181.9) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.005004889077107348em"></text>
+                        <text transform="translate(307 179.1) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                        <text transform="translate(309.9 175.9) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.01800539363105692em"></text>
+                        <text transform="translate(311.9 173.7) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial">
+                        </text>
+                        <text transform="translate(319.1 165.9) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial;letter-spacing: -0.005004889077107348em"></text>
+                        <text transform="translate(322.1 162.7) rotate(-47.3)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-family: ArialMT, Arial"></text>
+                      </g>
+                      <g>
+                        <text transform="matrix(0.6, 0.61, -0.61, 0.6, 170.79, 162.19)"
+                              style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">Лінія чоловічого роду</text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 181.27, 170.81)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: 0.002999588285942975em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 184.4, 173.98)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 188.37, 178)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: -0.004040261772902782em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 191.91, 181.6)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: 0.008998764857828925em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 194.61, 184.33)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: -0.005019719172394366em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 198.31, 188.09)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 200.82, 190.63)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: -0.004040261772902782em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 203.47, 193.32)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 206.54, 196.44)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: -0.01799752971565785em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 208.59, 198.51)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial">
+                        </text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 216.04, 206.06)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial;letter-spacing: -0.005019719172394366em"></text>
+                        <text transform="matrix(0.7, 0.71, -0.71, 0.7, 219.07, 209.14)"
+                              style="isolation: isolate;font-size: 7.976355075836182px;font-family: ArialMT, Arial"></text>
+                        <circle cx="248.7" cy="392.2" r="14.6"
+                                style="fill: #fff;stroke: #000" />
+                      </g>
+
+                      <g>
+                        <text transform="translate(123.7 68.1)"
+                              style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial;letter-spacing: -0.07303873891403248em">1</text>
+                        <text transform="translate(127.2 68.1)"
+                              style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">1-12</text>
+                      </g>
+                      <text transform="translate(137.8 61.7)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">12
+                        - 13</text>
+                      <text transform="translate(154.2 55.9)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">13-14</text>
+                      <g>
+                        <text transform="translate(175.3 56.9)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">15
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(65.5 154.1)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">5
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(65.8 310.5)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">75
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(173.1 410.8)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">65
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(290.9 412.5)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">55
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(397.4 310.8)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">45
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(397.1 154.1)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">35
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(290 57.9)"
+                              style="isolation: isolate;font-size: 9.199999809265137px;font-weight: bold;fill:#000;font-family: ArialMT, Arial">25
+                          років</text>
+
+                      </g>
+                      <text transform="translate(196.7 38.1)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">17-18</text>
+                      <text transform="translate(210.6 31.4)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">18-19</text>
+                      <text transform="translate(273.2 34.8)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">21-22</text>
+                      <text transform="translate(302.5 45.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">23-24</text>
+                      <text transform="translate(329.9 56.4)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">26-27</text>
+                      <text transform="translate(343.3 62.6)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">27-28</text>
+                      <text transform="translate(359.2 68.1)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">28-29</text>
+                      <text transform="translate(400.4 113.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">31-32</text>
+                      <text transform="translate(404.9 125.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">32-33</text>
+                      <text transform="translate(411 140.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">33-34</text>
+                      <text transform="translate(422.2 169.1)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">36-37</text>
+                      <text transform="translate(427.8 183.9)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">37-38</text>
+                      <text transform="translate(435 198)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">38-39</text>
+                      <text transform="translate(434.9 264.9)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">41-42</text>
+                      <text transform="translate(428.8 280)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">42-43</text>
+                      <text transform="translate(420.9 295.7)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">43-44</text>
+                      <text transform="translate(411.1 322.7)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">46-47</text>
+                      <text transform="translate(405.6 336.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">47-48</text>
+                      <text transform="translate(401.4 349.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">48-49</text>
+                      <text transform="translate(354.9 395.9)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">51-52</text>
+                      <text transform="translate(338.3 402.8)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">52-53</text>
+                      <text transform="translate(323.5 409)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">53-54</text>
+                      <text transform="translate(295.6 422.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">56-57</text>
+                      <text transform="translate(282 427.7)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">57-58</text>
+                      <text transform="translate(272.2 433.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">58-59</text>
+                      <text transform="translate(205.8 431.7)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">61-62</text>
+                      <text transform="translate(191.8 425.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">62-63</text>
+                      <text transform="translate(150.3 409)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">66-67</text>
+                      <circle cx="154.8" cy="135.5" r="11.8" style="fill: #fff;stroke: #000" />
+                      <text transform="translate(136.6 402.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">67-68</text>
+                      <text transform="translate(123.4 396.6)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">68-69</text>
+                      <text transform="translate(80.1 349.2)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">71-72</text>
+                      <text transform="translate(76.8 337.8)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">72-73</text>
+                      <text transform="translate(70.6 321.4)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">73-74</text>
+                      <text transform="translate(57.8 293.8)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">76-77</text>
+                      <text transform="translate(51.6 278)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">77-78</text>
+                      <text transform="translate(44.8 263.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">78-79</text>
+                      <text transform="translate(45.5 198)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">1-2</text>
+                      <text transform="translate(51.7 184.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">2-3</text>
+                      <text transform="translate(58.3 169.1)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">3-4</text>
+                      <text transform="translate(70.6 140.6)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">6-7</text>
+                      <text transform="translate(75.4 126.5)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">7-8</text>
+                      <text transform="translate(80.9 112.1)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">8-9</text>
+                      <text transform="translate(176.6 420.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">63-64</text>
+                      <text transform="translate(286.9 39.3)"
+                            style="isolation: isolate;font-size: 6.199999809265137px;fill:#65696F;font-family: ArialMT, Arial">22-23</text>
+                      <g>
+                        <text transform="translate(-1 235.5)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-weight:bold;font-family: ArialMT, Arial">о
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(230 5.4)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-weight:bold;font-family: ArialMT, Arial">20
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(471.6 235.5)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-weight: bold; font-family: ArialMT, Arial">40
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(417.6 80.9)"
+                              style="isolation: isolate;font-weight: bold; font-size: 7.999989986419678px;font-family: ArialMT, Arial">30
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(232 459.7)"
+                              style="isolation: isolate;font-weight: bold; font-size: 7.999989986419678px;font-family: ArialMT, Arial">60
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(416.6 383.7)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-weight: bold; font-family: ArialMT, Arial">50
+                          років</text>
+                      </g>
+                      <g>
+                        <text transform="translate(53.4 383.7)"
+                              style="isolation: isolate;font-size: 7.999989986419678px;font-weight: bold;font-family: ArialMT, Arial">70
+                          років</text>
+                      </g>
+                      <text id="point-1" transform="translate(40.4 238.2)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-7" transform="translate(379.2 96.3)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-2" transform="translate(239.2 38.7)"
+                            style="font-size: 24px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-6" transform="translate(98.1 96.2)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-9" transform="translate(98.9 379.7)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-4" transform="translate(239.3 438)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-8" transform="translate(378.9 379.7)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-5" transform="translate(238.9 238.3)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-18" transform="translate(241.3 76)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-tl2" transform="translate(127.7 121.9)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-17" transform="translate(80.1 237.2)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-bl2" transform="translate(126.7 350.3)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-20" transform="translate(402.4 236.2)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-19" transform="translate(240.3 399.2)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-br2" transform="translate(354 349)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-16" transform="translate(243.3 100.8)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-tl1" transform="translate(147.6 139.9)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-15" transform="translate(109 235.2)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial;">0</text>
+                      <text id="point-21" transform="translate(162.7 234)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-22" transform="translate(243.3 155.3)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-11" transform="translate(377.2 235)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-br1" transform="translate(335.7 328.4)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-10" transform="translate(242.3 370.2)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-bl1" transform="translate(148 329.4)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-13" transform="translate(279.6 333.8)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-12" transform="translate(312.1 303.7)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-14" transform="translate(339.5 273)"
+                            style="font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-tr2" transform="translate(352.9 121.3)"
+                            style="isolation: isolate;font-size: 18px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-tr1" transform="translate(336.7 139.9)"
+                            style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">0</text>
+                      <text id="point-3" transform="translate(438.6 238.3)"
+                            style="isolation: isolate;font-size: 24px;font-family: ArialMT, Arial;fill: #fff;">0</text>
+                      <text id="point-tr" transform="translate(329.5 39.9)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-rt" transform="translate(441.1 150.7)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-tl" transform="translate(159.8 39.9)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-lt" transform="translate(47 151.3)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-lb" transform="translate(47 315.3)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-bl" transform="translate(158.8 427.6)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-br" transform="translate(329.5 426.6)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="point-rb" transform="translate(441.1 314.1)"
+                            style="isolation: isolate;font-size: 9px;font-family: ArialMT, Arial">99</text>
+                      <text id="pointbm4" transform="translate(314.8 431.1)"
+                            style="isolation: isolate;font-size: 7px;font-family: ArialMT, Arial">99</text>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <!-- Оболонка слайдера -->
+      <div class="calc-container__slider ">
+        <div class="calc-container__wrapper ">
+          <div class="calc-container__slide cards ">
+            <div class="cards__card-title">
+              <div class="cards__title">Особисте призначення</div>
+              <div class="cards__subtitle">Наші завдання на духовному та матеріальному плані. Те, що ми маємо пропрацювати у собі до 40 років.</div>
+            </div>
+            <div class="cards__calc cards__calc_img">
+              <div class="cards__top">
+                <span class="cards__text">Небо:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-nebo" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+                <span class="cards__circle cards__circle_abs">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-sum-nz" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+              <div class="cards__bot">
+                <span class="cards__text">Земля:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-zemly" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+            </div>
+          </div>
+          <div class="calc-container__slide cards swiper-slide">
+            <div class="cards__card-title">
+              <div class="cards__title">Соціальне призначення</div>
+              <div class="cards__subtitle">Яку цінність ми маємо нести в соціум, наші взаємини з родовою системою. Необхідно реалізувати від 40 до 60 років.</div>
+            </div>
+            <div class="cards__calc  cards__calc_img">
+              <div class="cards__top">
+                <span class="cards__text">Ч:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-man" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+                <span class="cards__circle cards__circle_abs">
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-sum-mw" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+              <div class="cards__bot">
+                <span class="cards__text">Ж:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-woman" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+            </div>
+          </div>
+          <div class="calc-container__slide cards custom-card swiper-slide">
+            <div class="cards__card-title">
+              <div class="cards__title">Духовне призначення</div>
+              <div class="cards__subtitle">Вища задача нашої Душі та духовний залік перед Богом. Впливає протягом всього життя.</div>
+            </div>
+            <div class="cards__calc cards__calc_img">
+              <div class="cards__top">
+                <span class="cards__text">Особисте:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-du-m" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+                <span class="cards__circle cards__circle_abs">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-du" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+
+												</span>
+              </div>
+              <div class="cards__bot">
+                <span class="cards__text">Соціальне:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-du-w" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+            </div>
+          </div>
+          <div class="calc-container__slide cards custom-card swiper-slide">
+            <div class="cards__card-title">
+              <div class="cards__title">Планетарне призначення</div>
+              <div class="cards__subtitle">На що звернути увагу, щоб розвинути в собі надздібності і духовність. Місія для великої кількості людей.</div>
+            </div>
+            <div class="cards__calc cards__calc_img">
+              <div class="cards__top">
+                <span class="cards__text">Соціальне:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-pl-m" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+                <span class="cards__circle cards__circle_abs">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-pl" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+
+												</span>
+              </div>
+              <div class="cards__bot">
+                <span class="cards__text">Духовне:</span>
+                <span class="cards__circle">
+
+
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 44 44">
+                    <g id="UrTavla">
+                      <circle style="fill:white;stroke:rgba(102, 90, 166, 0.6);stroke-width:1px;stroke-miterlimit:10;" cx="50%" cy="50%" r="18">
+                      </circle>
+                      <text x="50%" y="50%" text-anchor="middle" stroke="#51c5cf" stroke-width="0px" id="otp-otp-pl-w" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial" dy=".3em"></text>
+                    </g>
+                  </svg>
+												</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="calc-container">
+    <div class="btns__row">
+      <a href="#form" class="calc-btn">Замовити розбір матриці</a>
+      <div class="calc-download-btn calc-hidden">Завантажити PDF</div>
+    </div>
+  </div>
+
+
+
+<script src="js/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.debug.js"></script>
+  <script language="javascript" type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+<script>
+  const input = document.getElementById('calc-matriza-bd');
+  const div = document.getElementById('calc-matriza-vz');
+  const maxDigits = 10;
+  input.addEventListener('input', () => {
+    // Проверить количество цифр в input
+    const digitCount = input.value.replace(/[^0-9]/g, '').length;
+    // Если количество цифр меньше максимального или input пустой, вывести текст в div
+    if (digitCount < maxDigits || input.value === '') {
+      div.textContent = '';
+    } else {
+    }
+  });
+  // Обработчик события ввода
+  input.addEventListener('input', () => {
+    // Проверить содержимое input на наличие цифр
+    const hasNumbers = /\d/.test(input.value);
+    // Если в input нет цифр, очистить содержимое div
+    if (!hasNumbers) {
+      div.textContent = '';
+    }
+
+  });
+  // Максимальное количество цифр в input
+</script>
+<script>
+  $(document).ready(function () {
+    let t = [0];
+    for (let e = 1; e < 23; e++) {
+      let n = document.querySelector(`#point-${e}`).attributes[1].value.split(" ");
+      t.push(+n[0].match(/[0-9/.]+/));
+    }
+    let e = document
+                    .querySelector("#point-bl1")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            n = document
+                    .querySelector("#point-bl2")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            o = document
+                    .querySelector("#point-br1")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            r = document
+                    .querySelector("#point-br2")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            l = document
+                    .querySelector("#point-tl1")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            c = document
+                    .querySelector("#point-tl2")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            i = document
+                    .querySelector("#point-tr1")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            u = document
+                    .querySelector("#point-tr2")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            y = document
+                    .querySelector("#otp-nebo")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            a = document
+                    .querySelector("#otp-zemly")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            m = document
+                    .querySelector("#otp-sum-nz")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            s = document
+                    .querySelector("#otp-man")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            p = document
+                    .querySelector("#otp-woman")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            d = document
+                    .querySelector("#otp-sum-mw")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            x = document
+                    .querySelector("#otp-otp-du")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/),
+            S = document
+                    .querySelector("#otp-otp-pl")
+                    .attributes[1].value.split(" ")[0]
+                    .match(/[0-9/.]+/);
+    function q() {
+      let q, f;
+      for (let e = 1; e < 23; e++)
+        (q = +document.querySelector(`#point-${e}`).scrollHeight / 3),
+                (f = document.querySelector(`#point-${e}`).attributes[1].value.split(" ")),
+                1 == document.querySelector(`#point-${e}`).textContent.length
+                        ? (document.querySelector(`#point-${e}`).attributes[1].value = `translate(${+t[e] + (q / 3) * 1.3} ${+f[1].match(/[0-9/.]+/)})`)
+                        : (document.querySelector(`#point-${e}`).attributes[1].value = `translate(${+t[e]} ${+f[1].match(/[0-9/.]+/)})`);
+      1 == document.querySelector("#point-bl1").textContent.length
+              ? ((q = +document.querySelector("#point-bl1").scrollHeight / 3),
+                      (f = document.querySelector("#point-bl1").attributes[1].value.split(" ")),
+                      (document.querySelector("#point-bl1").attributes[1].value = `translate(${+e + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+              : ((q = +document.querySelector("#point-bl1").scrollHeight / 3),
+                      (f = document.querySelector("#point-bl1").attributes[1].value.split(" ")),
+                      (document.querySelector("#point-bl1").attributes[1].value = `translate(${+e} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-bl2").textContent.length
+                      ? ((q = +document.querySelector("#point-bl2").scrollHeight / 3),
+                              (f = document.querySelector("#point-bl2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-bl2").attributes[1].value = `translate(${+n + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-bl2").scrollHeight / 3),
+                              (f = document.querySelector("#point-bl2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-bl2").attributes[1].value = `translate(${+n} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-br2").textContent.length
+                      ? ((q = +document.querySelector("#point-br2").scrollHeight / 3),
+                              (f = document.querySelector("#point-br2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-br2").attributes[1].value = `translate(${+r + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-br2").scrollHeight / 3),
+                              (f = document.querySelector("#point-br2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-br2").attributes[1].value = `translate(${+r} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-br1").textContent.length
+                      ? ((q = +document.querySelector("#point-br1").scrollHeight / 3),
+                              (f = document.querySelector("#point-br1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-br1").attributes[1].value = `translate(${+o + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-br1").scrollHeight / 3),
+                              (f = document.querySelector("#point-br1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-br1").attributes[1].value = `translate(${+o} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-tl1").textContent.length
+                      ? ((q = +document.querySelector("#point-tl1").scrollHeight / 3),
+                              (f = document.querySelector("#point-tl1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tl1").attributes[1].value = `translate(${+l + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-tl1").scrollHeight / 3),
+                              (f = document.querySelector("#point-tl1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tl1").attributes[1].value = `translate(${+l} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-tl2").textContent.length
+                      ? ((q = +document.querySelector("#point-tl2").scrollHeight / 3),
+                              (f = document.querySelector("#point-tl2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tl2").attributes[1].value = `translate(${+c + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-tl2").scrollHeight / 3),
+                              (f = document.querySelector("#point-tl2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tl2").attributes[1].value = `translate(${+c} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-tr2").textContent.length
+                      ? ((q = +document.querySelector("#point-tr2").scrollHeight / 3),
+                              (f = document.querySelector("#point-tr2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tr2").attributes[1].value = `translate(${+u + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-tr2").scrollHeight / 3),
+                              (f = document.querySelector("#point-tr2").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tr2").attributes[1].value = `translate(${+u} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#point-tr1").textContent.length
+                      ? ((q = +document.querySelector("#point-tr1").scrollHeight / 3),
+                              (f = document.querySelector("#point-tr1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tr1").attributes[1].value = `translate(${+i + q / 2} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#point-tr1").scrollHeight / 3),
+                              (f = document.querySelector("#point-tr1").attributes[1].value.split(" ")),
+                              (document.querySelector("#point-tr1").attributes[1].value = `translate(${+i} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-zemly").textContent.length
+                      ? ((q = +document.querySelector("#otp-zemly").scrollHeight / 3),
+                              (f = document.querySelector("#otp-zemly").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-zemly").attributes[1].value = `translate(${+a + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-zemly").scrollHeight / 3),
+                              (f = document.querySelector("#otp-zemly").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-zemly").attributes[1].value = `translate(${+a} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-nebo").textContent.length
+                      ? ((q = +document.querySelector("#otp-nebo").scrollHeight / 3),
+                              (f = document.querySelector("#otp-nebo").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-nebo").attributes[1].value = `translate(${+y + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-nebo").scrollHeight / 3),
+                              (f = document.querySelector("#otp-nebo").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-nebo").attributes[1].value = `translate(${+y} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-sum-nz").textContent.length
+                      ? ((q = +document.querySelector("#otp-sum-nz").scrollHeight / 3),
+                              (f = document.querySelector("#otp-sum-nz").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-sum-nz").attributes[1].value = `translate(${+m + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-sum-nz").scrollHeight / 3),
+                              (f = document.querySelector("#otp-sum-nz").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-sum-nz").attributes[1].value = `translate(${+m} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-man").textContent.length
+                      ? ((q = +document.querySelector("#otp-man").scrollHeight / 3),
+                              (f = document.querySelector("#otp-man").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-man").attributes[1].value = `translate(${+s + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-man").scrollHeight / 3),
+                              (f = document.querySelector("#otp-man").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-man").attributes[1].value = `translate(${+s} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-woman").textContent.length
+                      ? ((q = +document.querySelector("#otp-woman").scrollHeight / 3),
+                              (f = document.querySelector("#otp-woman").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-woman").attributes[1].value = `translate(${+p + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-woman").scrollHeight / 3),
+                              (f = document.querySelector("#otp-woman").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-woman").attributes[1].value = `translate(${+p} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-sum-mw").textContent.length
+                      ? ((q = +document.querySelector("#otp-sum-mw").scrollHeight / 3),
+                              (f = document.querySelector("#otp-sum-mw").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-sum-mw").attributes[1].value = `translate(${+d + q / 2 - 1} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-sum-mw").scrollHeight / 3),
+                              (f = document.querySelector("#otp-sum-mw").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-sum-mw").attributes[1].value = `translate(${+d} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-otp-du").textContent.length
+                      ? ((q = +document.querySelector("#otp-otp-du").scrollHeight / 3),
+                              (f = document.querySelector("#otp-otp-du").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-otp-du").attributes[1].value = `translate(${+x + q / 2 - 1.5} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-otp-du").scrollHeight / 3),
+                              (f = document.querySelector("#otp-otp-du").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-otp-du").attributes[1].value = `translate(${+(x - 1.5)} ${+f[1].match(/[0-9/.]+/)})`)),
+              1 == document.querySelector("#otp-otp-pl").textContent.length
+                      ? ((q = +document.querySelector("#otp-otp-pl").scrollHeight / 3),
+                              (f = document.querySelector("#otp-otp-pl").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-otp-pl").attributes[1].value = `translate(${+S + q / 2 - 1.5} ${+f[1].match(/[0-9/.]+/)})`))
+                      : ((q = +document.querySelector("#otp-otp-pl").scrollHeight / 3),
+                              (f = document.querySelector("#otp-otp-pl").attributes[1].value.split(" ")),
+                              (document.querySelector("#otp-otp-pl").attributes[1].value = `translate(${+(S - 1.5)} ${+f[1].match(/[0-9/.]+/)})`)),
+              (q = 0),
+              (f = 0);
+    }
+    function f(t) {
+      let e = t.toString(10).replace(/\D/g, "0").split("").map(Number);
+      for (var n = 0, o = 0; o < e.length; o++) n += e[o];
+      return n;
+    }
+    $("#calc-matriza-bd").on("input", (t) => {
+      !(function (t) {
+        var e = t,
+                n = e.dataset.mask,
+                o = e.value,
+                r = /[0\*]/,
+                l = /[0-9]/,
+                c = "";
+        try {
+          for (var i = n.length, u = 0, y = 0; y < i && !(y >= o.length) && ("0" !== n[y] || null !== o[u].match(l)); ) {
+            for (; null === n[y].match(r) && o[u] !== n[y]; ) c += n[y++];
+            (c += o[u++]), y++;
+          }
+          e.value = c;
+        } catch (t) {}
+      })(t.target);
+      let e = t.target.value;
+      if (10 == e.length) {
+        document.querySelector(".calc-download-btn").classList.remove("calc-hidden");
+        let n = +(e = e.split("."))[0],
+                o = +e[1],
+                r = +e[2];
+        (document.querySelector("#calc-matriza-vz").innerHTML = (function (t) {
+          var e = parseInt(t.substring(0, 2)),
+                  n = parseInt(t.substring(3, 5)),
+                  o = parseInt(t.substring(6, 10)),
+                  r = new Date(),
+                  l = new Date(o, n - 1, e),
+                  c = r.getFullYear() - l.getFullYear(),
+                  i = r.getMonth() - l.getMonth();
+          return (i < 0 || (0 === i && r.getDate() < l.getDate())) && c--, c;
+        })(t.target.value)),
+        n < 10 && 2 == n.length && (n = n.replace(/^0+/, "")),
+        o < 10 && 2 == +o.length && (o = o.replace(/^0+/, ""));
+        let l = f(r),
+                c = n;
+        l > 22 && (l = f(l)), n > 22 && n <= 31 && (c = f(n));
+        let i = c + l + o;
+        i > 22 && (i = f(i));
+        let u = c + l + o + i;
+        u > 22 && (u = f(u));
+        let y = u + l;
+        y > 22 && (y = f(y));
+        let a = u + i;
+        a > 22 && (a = f(a));
+        let m = y + a;
+        m > 22 && (m = f(m));
+        let s = m + a;
+        s > 22 && (s = f(s));
+        let p = m + y;
+        p > 22 && (p = f(p));
+        let d = a + i;
+        d > 22 && (d = f(d));
+        let x = u + o;
+        x > 22 && (x = f(x));
+        let S = x + o;
+        S > 22 && (S = f(S));
+        let g = x + u;
+        g > 22 && (g = f(g));
+        let C = c + u;
+        C > 22 && (C = f(C));
+        let h = C + c;
+        h > 22 && (h = f(h));
+        let b = C + u;
+        b > 22 && (b = f(b));
+        let w = c + o;
+        w > 22 && (w = f(w));
+        let M = l + o;
+        M > 22 && (M = f(M));
+        let $ = l + i;
+        $ > 22 && ($ = f($));
+        let k = c + i;
+        k > 22 && (k = f(k));
+        let v = c + l;
+        v > 22 && (v = f(v));
+        let z = o + i;
+        z > 22 && (z = f(z));
+        let H = v + z;
+        H > 22 && (H = f(H));
+        let T = w + $;
+        T > 22 && (T = f(T));
+        let P = M + k;
+        P > 22 && (P = f(P));
+        let L = T + P;
+        L > 22 && (L = f(L));
+        let A = L + H;
+        A > 22 && (A = f(A));
+        let R = l + y;
+        R > 22 && (R = f(R));
+        let _ = w + u;
+        _ > 22 && (_ = f(_));
+        let D = _ + w;
+        D > 22 && (D = f(D));
+        let I = u + M;
+        I > 22 && (I = f(I));
+        let B = I + M;
+        B > 22 && (B = f(B));
+        let F = u + $;
+        F > 22 && (F = f(F));
+        let Y = F + $;
+        Y > 22 && (Y = f(Y));
+        let N = u + k;
+        N > 22 && (N = f(N));
+        let O = N + k;
+        O > 22 && (O = f(O));
+        let j = w + c;
+        j > 22 && (j = f(j));
+        let E = k + c;
+        E > 22 && (E = f(E));
+        let G = k + i;
+        G > 22 && (G = f(G));
+        let J = $ + i;
+        J > 22 && (J = f(J));
+        let K = $ + l;
+        K > 22 && (K = f(K));
+        let Q = M + l;
+        Q > 22 && (Q = f(Q));
+        let U = M + o;
+        U > 22 && (U = f(U));
+        let V = w + o;
+        V > 22 && (V = f(V));
+        let W = j + w;
+        W > 22 && (W = f(W));
+        let X = j + c;
+        X > 22 && (X = f(X));
+        let Z = c + E;
+        Z > 22 && (Z = f(Z));
+        let tt = k + E;
+        tt > 22 && (tt = f(tt));
+        let et = k + G;
+        et > 22 && (et = f(et));
+        let nt = i + G;
+        nt > 22 && (nt = f(nt));
+        let ot = i + J;
+        ot > 22 && (ot = f(ot));
+        let rt = $ + J;
+        rt > 22 && (rt = f(rt));
+        let lt = $ + K;
+        lt > 22 && (lt = f(lt));
+        let ct = l + K;
+        ct > 22 && (ct = f(ct));
+        let it = l + Q;
+        it > 22 && (it = f(it));
+        let ut = Q + M;
+        ut > 22 && (ut = f(ut));
+        let yt = U + M;
+        yt > 22 && (yt = f(yt));
+        let at = U + o;
+        at > 22 && (at = f(at));
+        let mt = V + o;
+        mt > 22 && (mt = f(mt));
+        let st = V + w;
+        st > 22 && (st = f(st));
+        let pt = W + w;
+        pt > 22 && (pt = f(pt));
+        let dt = W + j;
+        dt > 22 && (dt = f(dt));
+        let xt = X + j;
+        xt > 22 && (xt = f(xt));
+        let St = X + c;
+        St > 22 && (St = f(St));
+        let qt = Z + c;
+        qt > 22 && (qt = f(qt));
+        let ft = Z + E;
+        ft > 22 && (ft = f(ft));
+        let gt = tt + E;
+        gt > 22 && (gt = f(gt));
+        let Ct = tt + k;
+        Ct > 22 && (Ct = f(Ct));
+        let ht = et + k;
+        ht > 22 && (ht = f(ht));
+        let bt = G + et;
+        bt > 22 && (bt = f(bt));
+        let wt = G + nt;
+        wt > 22 && (wt = f(wt));
+        let Mt = i + nt;
+        Mt > 22 && (Mt = f(Mt));
+        let $t = i + ot;
+        $t > 22 && ($t = f($t));
+        let kt = ot + J;
+        kt > 22 && (kt = f(kt));
+        let vt = J + rt;
+        vt > 22 && (vt = f(vt));
+        let zt = $ + rt;
+        zt > 22 && (zt = f(zt));
+        let Ht = $ + lt;
+        Ht > 22 && (Ht = f(Ht));
+        let Tt = lt + K;
+        Tt > 22 && (Tt = f(Tt));
+        let Pt = K + ct;
+        Pt > 22 && (Pt = f(Pt));
+        let Lt = ct + l;
+        Lt > 22 && (Lt = f(Lt));
+        let At = l + it;
+        At > 22 && (At = f(At));
+        let Rt = it + Q;
+        Rt > 22 && (Rt = f(Rt));
+        let _t = Q + ut;
+        _t > 22 && (_t = f(_t));
+        let Dt = ut + M;
+        Dt > 22 && (Dt = f(Dt));
+        let It = M + yt;
+        It > 22 && (It = f(It));
+        let Bt = yt + U;
+        Bt > 22 && (Bt = f(Bt));
+        let Ft = U + at;
+        Ft > 22 && (Ft = f(Ft));
+        let Yt = at + o;
+        Yt > 22 && (Yt = f(Yt));
+        let Nt = o + mt;
+        Nt > 22 && (Nt = f(Nt));
+        let Ot = mt + V;
+        Ot > 22 && (Ot = f(Ot));
+        let jt = V + st;
+        jt > 22 && (jt = f(jt));
+        let Et = st + w;
+        Et > 22 && (Et = f(Et));
+        let Gt = w + M + $ + k;
+        Gt > 22 && (Gt = f(Gt));
+        let Jt = u + Gt;
+        Jt > 22 && (Jt = f(Jt)),
+                (function (
+                        t,
+                        e,
+                        n,
+                        o,
+                        r,
+                        l,
+                        c,
+                        i,
+                        u,
+                        y,
+                        a,
+                        m,
+                        s,
+                        p,
+                        d,
+                        x,
+                        S,
+                        g,
+                        C,
+                        h,
+                        b,
+                        w,
+                        M,
+                        $,
+                        k,
+                        v,
+                        z,
+                        H,
+                        T,
+                        P,
+                        L,
+                        A,
+                        R,
+                        _,
+                        D,
+                        I,
+                        B,
+                        F,
+                        Y,
+                        N,
+                        O,
+                        j,
+                        E,
+                        G,
+                        J,
+                        K,
+                        Q,
+                        U,
+                        V,
+                        W,
+                        X,
+                        Z,
+                        tt,
+                        et,
+                        nt,
+                        ot,
+                        rt,
+                        lt,
+                        ct,
+                        it,
+                        ut,
+                        yt,
+                        at,
+                        mt,
+                        st,
+                        pt,
+                        dt,
+                        xt,
+                        St,
+                        qt,
+                        ft,
+                        gt,
+                        Ct,
+                        ht,
+                        bt,
+                        wt,
+                        Mt,
+                        $t,
+                        kt,
+                        vt,
+                        zt,
+                        Ht,
+                        Tt,
+                        Pt,
+                        Lt,
+                        At,
+                        Rt,
+                        _t,
+                        Dt,
+                        It,
+                        Bt,
+                        Ft,
+                        Yt,
+                        Nt,
+                        Ot
+                ) {
+                  (document.querySelector("#point-2").textContent = n),
+
+                          (document.querySelector("#point-1").textContent = t),
+                          (document.querySelector("#point-3").textContent = e),
+                          (document.querySelector("#point-4").textContent = o),
+                          center('#point-4',6),
+                          (document.querySelector("#point-5").textContent = r),
+                          center('#point-5',6),
+                          (document.querySelector("#point-11").textContent = l),
+                          center('#point-11',6),
+                          (document.querySelector("#point-10").textContent = c),
+                          center('#point-18',10),
+                          (document.querySelector("#point-12").textContent = i),
+                          center('#point-12',6),
+                          (document.querySelector("#point-13").textContent = u),
+                          center('#point-13',6),
+                          (document.querySelector("#point-14").textContent = y),
+                          center('#point-14',6),
+                          (document.querySelector("#point-19").textContent = a),
+                          center('#point-19',6),
+                          (document.querySelector("#point-16").textContent = m),
+                          center('#point-16',6),
+                          (document.querySelector("#point-18").textContent = s),
+                          (document.querySelector("#point-22").textContent = p),
+                          center('#point-22',6),
+                          (document.querySelector("#point-15").textContent = d),
+                          center('#point-15',6),
+                          (document.querySelector("#point-17").textContent = x),
+                          (document.querySelector("#point-21").textContent = S),
+                          center('#point-21',6),
+                          (document.querySelector("#point-6").textContent = g),
+                          center('#point-6',6),
+                          (document.querySelector("#calc-otp-man1").textContent = g),
+                          (document.querySelector("#point-7").textContent = C),
+                          center('#point-7',6),
+                          (document.querySelector("#calc-otp-woman1").textContent = C),
+                          (document.querySelector("#point-8").textContent = h),
+                          center('#point-8',6),
+                          (document.querySelector("#calc-otp-man2").textContent = h),
+                          (document.querySelector("#point-9").textContent = b),
+                          (document.querySelector("#calc-otp-woman2").textContent = b),
+                          (document.querySelector("#point-20").textContent = T),
+                          center('#point-20',6),
+                          (document.querySelector("#point-tl1").textContent = P),
+                          center('#point-tl1',3),
+                          (document.querySelector("#point-tl2").textContent = L),
+                          center('#point-tl2',6),
+                          (document.querySelector("#point-tr2").textContent = A),
+                          center('#point-tr1',3),
+                          (document.querySelector("#point-tr1").textContent = R),
+                          center('#point-tr2',6),
+                          (document.querySelector("#point-br2").textContent = D),
+                          (document.querySelector("#point-br1").textContent = _),
+                          center('#point-br1',3),
+                          (document.querySelector("#point-bl1").textContent = I),
+                          center('#point-bl1',3),
+                          (document.querySelector("#point-bl2").textContent = B),
+                          (document.querySelector("#point-tl1").textContent = P),
+                          (document.querySelector("#point-tl2").textContent = L),
+                          (document.querySelector("#point-tr2").textContent = A),
+                          (document.querySelector("#point-tr1").textContent = R),
+                          (document.querySelector("#point-br2").textContent = D),
+                          (document.querySelector("#point-br1").textContent = _),
+                          (document.querySelector("#point-bl1").textContent = I),
+                          (document.querySelector("#point-bl2").textContent = B),
+                          (document.querySelector("#point-lt").textContent = F),
+                          (document.querySelector("#point-lb").textContent = Y),
+                          (document.querySelector("#point-bl").textContent = N),
+                          (document.querySelector("#point-br").textContent = O),
+                          (document.querySelector("#point-rb").textContent = j),
+                          (document.querySelector("#point-rt").textContent = E),
+                          (document.querySelector("#point-tr").textContent = G),
+                          (document.querySelector("#point-tl").textContent = J),
+                          (document.querySelector("#pointlm11").textContent = K),
+                          (document.querySelector("#pointlm8").textContent = Q),
+                          (document.querySelector("#pointlm8").textContent = Q),
+                          (document.querySelector("#pointlm5").textContent = U),
+                          (document.querySelector("#pointlm2").textContent = V),
+                          (document.querySelector("#pointbm11").textContent = W),
+                          (document.querySelector("#pointbm8").textContent = X),
+                          (document.querySelector("#pointbm5").textContent = Z),
+                          (document.querySelector("#pointbm2").textContent = tt),
+                          (document.querySelector("#pointrm11").textContent = et),
+                          (document.querySelector("#pointrm8").textContent = nt),
+                          (document.querySelector("#pointrm5").textContent = ot),
+                          (document.querySelector("#pointrm2").textContent = rt),
+                          (document.querySelector("#pointtm11").textContent = lt),
+                          (document.querySelector("#pointtm8").textContent = ct),
+                          (document.querySelector("#pointtm5").textContent = it),
+                          (document.querySelector("#pointtm2").textContent = ut),
+                          (document.querySelector("#pointlm12").textContent = yt),
+                          (document.querySelector("#pointlm10").textContent = at),
+                          (document.querySelector("#pointlm9").textContent = mt),
+                          (document.querySelector("#pointlm7").textContent = st),
+                          (document.querySelector("#pointlm6").textContent = pt),
+                          (document.querySelector("#pointlm4").textContent = dt),
+                          (document.querySelector("#pointlm3").textContent = xt),
+                          (document.querySelector("#pointlm1").textContent = St),
+                          (document.querySelector("#pointrm6").textContent = qt),
+                          (document.querySelector("#pointrm4").textContent = ft),
+                          (document.querySelector("#pointrm3").textContent = gt),
+                          (document.querySelector("#pointrm1").textContent = Ct),
+                  (document.querySelector("#pointbm12").textContent = ht),
+                  (document.querySelector("#pointbm10").textContent = bt),
+                  (document.querySelector("#pointbm9").textContent = wt),
+                  (document.querySelector("#pointbm7").textContent = Mt),
+                  (document.querySelector("#pointbm6").textContent = $t),
+                  (document.querySelector("#pointbm4").textContent = kt),
+                  (document.querySelector("#pointbm3").textContent = vt),
+                  (document.querySelector("#pointbm1").textContent = zt),
+                  (document.querySelector("#pointrm12").textContent = Ht),
+                  (document.querySelector("#pointrm10").textContent = Tt),
+                  (document.querySelector("#pointrm9").textContent = Pt),
+                  (document.querySelector("#pointrm7").textContent = Lt),
+                  (document.querySelector("#pointtm12").textContent = At),
+                  (document.querySelector("#pointtm10").textContent = Rt),
+                  (document.querySelector("#pointtm9").textContent = _t),
+                  (document.querySelector("#pointtm7").textContent = Dt),
+                  (document.querySelector("#pointtm6").textContent = It),
+                  (document.querySelector("#pointtm4").textContent = Bt),
+                  (document.querySelector("#pointtm3").textContent = Ft),
+                  (document.querySelector("#pointtm1").textContent = Yt),
+                          (document.querySelector("#otp-zemly").textContent = w),
+                          (document.querySelector("#otp-nebo").textContent = M),
+                          (document.querySelector("#otp-sum-nz").textContent = $),
+                          (document.querySelector("#otp-man").textContent = k),
+                          (document.querySelector("#calc-otp-man3").textContent = k),
+                          (document.querySelector("#otp-woman").textContent = v),
+                          (document.querySelector("#calc-otp-woman3").textContent = v),
+                          (document.querySelector("#otp-sum-mw").textContent = z),
+                          (document.querySelector("#calc-otp-sila-roda").textContent = Nt);
+                  let jt = Nt + r;
+                  jt > 22 && (jt = f(jt));
+                  document.querySelector("#calc-otp-vnut-sila").textContent = `${r}`;
+                  document.querySelector("#calc-otp-vnut-sila2").textContent = `${Nt}`;
+                  document.querySelector("#calc-otp-vnut-sila3").textContent = `${jt}`;
+                  // document.querySelector("#circle_d2").textContent = `${Nt}`;
+                  // document.querySelector("#circle_d3").textContent = `${jt}`;
+                  let Et = z + $;
+                  Et > 22 && (Et = f(Et));
+                  let Gt = $ + z;
+                  Gt > 22 && (Gt = f(Gt));
+                  document.querySelector("#otp-otp-du").textContent = Gt;
+                  let Jt = Gt + z;
+                  Jt > 22 && (Jt = f(Jt));
+                  (document.querySelector("#otp-otp-pl").textContent = Jt),
+                          (document.querySelector(".physics-row-1").textContent = t),
+                          (document.querySelector(".energy-row-1").textContent = n),
+                          (document.querySelector(".key-row-1").textContent = g),
+                          (document.querySelector(".physics-row-2").textContent = x),
+                          (document.querySelector(".energy-row-2").textContent = s);
+                  let Kt = x + s;
+                  Kt > 22 && (Kt = f(Kt));
+                  (document.querySelector(".key-row-2").textContent = Kt), (document.querySelector(".physics-row-3").textContent = d), (document.querySelector(".energy-row-3").textContent = m);
+                  let Qt = d + m;
+                  Qt > 22 && (Qt = f(Qt));
+                  (document.querySelector(".key-row-3").textContent = Qt), (document.querySelector(".physics-row-4").textContent = S), (document.querySelector(".energy-row-4").textContent = p);
+                  let Ut = S + p;
+                  Ut > 22 && (Ut = f(Ut));
+                  (document.querySelector(".key-row-4").textContent = Ut), (document.querySelector(".physics-row-5").textContent = r), (document.querySelector(".energy-row-5").textContent = r);
+                  let Vt = 2 * r;
+                  Vt > 22 && (Vt = f(Vt));
+                  (document.querySelector(".key-row-5").textContent = Vt),
+                          (document.querySelector(".physics-row-6").textContent = l),
+                          (document.querySelector(".energy-row-6").textContent = c),
+                          (document.querySelector(".key-row-6").textContent = i),
+                          (document.querySelector(".physics-row-7").textContent = e),
+                          (document.querySelector(".energy-row-7").textContent = o),
+                          (document.querySelector(".key-row-7").textContent = h);
+                  let Wt = t + x + d + S + r + l + e;
+                  Wt > 22 && (Wt = f(Wt));
+                  Wt > 22 && (Wt = f(Wt));
+                  document.querySelector(".physics-row-8").textContent = Wt;
+                  let Xt = n + s + m + p + r + c + o;
+                  Xt > 22 && (Xt = f(Xt));
+                  Xt > 22 && (Xt = f(Xt));
+                  document.querySelector(".energy-row-8").textContent = Xt;
+                  let Zt = g + Kt + Qt + Ut + Vt + i + h;
+                  Zt > 22 && (Zt = f(Zt));
+                  Zt > 22 && (Zt = f(Zt));
+                  (document.querySelector(".key-row-8").textContent = Zt),
+                          (document.querySelector("#otp-otp-du-m").textContent = $),
+                          (document.querySelector("#otp-otp-du-w").textContent = z),
+                          (document.querySelector("#otp-otp-pl-w").textContent = Gt),
+                          (document.querySelector("#otp-otp-pl-m").textContent = z),
+                          // q(),
+                          setTimeout(function (){
+                            center('#point-2',5);
+                            center('#point-1',5);
+                            center('#point-3',6);
+                            center('#point-4',2);
+                            center('#point-7',3);
+                            center('#point-6',3);
+                            center('#point-5',4);
+                            center('#point-br2',2);
+                            center('#point-18',3);
+                            center('#point-17',-1);
+                            center('#point-17',3);
+                            center('#point-br2',-1);
+                            center('#point-22',1);
+                            center('#point-20',2);
+                            center('#point-bl2',1);
+                            center('#point-9',4);
+                          },100)
+
+
+                  ;
+                })(
+                        c,
+                        l,
+                        o,
+                        i,
+                        u,
+                        y,
+                        a,
+                        m,
+                        s,
+                        p,
+                        d,
+                        x,
+                        S,
+                        g,
+                        C,
+                        h,
+                        b,
+                        w,
+                        M,
+                        $,
+                        k,
+                        v,
+                        z,
+                        H,
+                        T,
+                        P,
+                        L,
+                        0,
+                        R,
+                        _,
+                        D,
+                        B,
+                        I,
+                        F,
+                        Y,
+                        N,
+                        O,
+                        j,
+                        E,
+                        G,
+                        J,
+                        K,
+                        Q,
+                        U,
+                        V,
+                        W,
+                        X,
+                        Z,
+                        tt,
+                        et,
+                        nt,
+                        ot,
+                        rt,
+                        lt,
+                        ct,
+                        it,
+                        ut,
+                        yt,
+                        at,
+                        mt,
+                        st,
+                        pt,
+                        dt,
+                        xt,
+                        St,
+                        qt,
+                        ft,
+                        gt,
+                        Ct,
+                        At,
+                        Rt,
+                        _t,
+                        Dt,
+                        ht,
+                        bt,
+                        wt,
+                        Mt,
+                        $t,
+                        kt,
+                        vt,
+                        zt,
+                        Ht,
+                        Tt,
+                        Pt,
+                        Lt,
+                        It,
+                        Bt,
+                        Ft,
+                        Yt,
+                        Nt,
+                        Ot,
+                        jt,
+                        Et,
+                        Gt
+                );
+      } else
+        (document.querySelector("#point-2").textContent = 0),
+                (document.querySelector("#point-1").textContent = 0),
+                (document.querySelector("#point-3").textContent = 0),
+                (document.querySelector("#point-4").textContent = 0),
+                (document.querySelector("#point-5").textContent = 0),
+                (document.querySelector("#point-11").textContent = 0),
+                (document.querySelector("#point-10").textContent = 0),
+                (document.querySelector("#point-12").textContent = 0),
+                (document.querySelector("#point-13").textContent = 0),
+                (document.querySelector("#point-14").textContent = 0),
+                (document.querySelector("#point-19").textContent = 0),
+                (document.querySelector("#point-16").textContent = 0),
+                (document.querySelector("#point-18").textContent = 0),
+                (document.querySelector("#point-22").textContent = 0),
+                (document.querySelector("#point-15").textContent = 0),
+                (document.querySelector("#point-17").textContent = 0),
+                (document.querySelector("#point-21").textContent = 0),
+                (document.querySelector("#point-6").textContent = 0),
+                (document.querySelector("#point-7").textContent = 0),
+                (document.querySelector("#point-8").textContent = 0),
+                (document.querySelector("#point-9").textContent = 0),
+                (document.querySelector("#point-20").textContent = 0),
+                (document.querySelector("#point-tl1").textContent = 0),
+                (document.querySelector("#point-tl2").textContent = 0),
+                (document.querySelector("#point-tr2").textContent = 0),
+                (document.querySelector("#point-tr1").textContent = 0),
+                (document.querySelector("#point-br2").textContent = 0),
+                (document.querySelector("#point-br1").textContent = 0),
+                (document.querySelector("#point-bl1").textContent = 0),
+                (document.querySelector("#point-bl2").textContent = 0),
+                (document.querySelector("#otp-zemly").textContent = 0),
+                (document.querySelector("#point-tl1").textContent = 0),
+                (document.querySelector("#point-tl2").textContent = 0),
+                (document.querySelector("#point-tr2").textContent = 0),
+                (document.querySelector("#point-tr1").textContent = 0),
+                (document.querySelector("#point-br2").textContent = 0),
+                (document.querySelector("#point-br1").textContent = 0),
+                (document.querySelector("#point-bl1").textContent = 0),
+                (document.querySelector("#point-bl2").textContent = 0),
+                (document.querySelector("#point-lt").textContent = 0),
+                (document.querySelector("#point-lb").textContent = 0),
+                (document.querySelector("#point-bl").textContent = 0),
+                (document.querySelector("#point-br").textContent = 0),
+                (document.querySelector("#point-rb").textContent = 0),
+                (document.querySelector("#point-rt").textContent = 0),
+                (document.querySelector("#point-tr").textContent = 0),
+                (document.querySelector("#point-tl").textContent = 0),
+                (document.querySelector("#pointlm11").textContent = 0),
+                (document.querySelector("#pointlm8").textContent = 0),
+                (document.querySelector("#pointlm8").textContent = 0),
+                (document.querySelector("#pointlm5").textContent = 0),
+                (document.querySelector("#pointlm2").textContent = 0),
+                (document.querySelector("#pointbm11").textContent = 0),
+                (document.querySelector("#pointbm8").textContent = 0),
+                (document.querySelector("#pointbm5").textContent = 0),
+                (document.querySelector("#pointbm2").textContent = 0),
+                (document.querySelector("#pointrm11").textContent = 0),
+                (document.querySelector("#pointrm8").textContent = 0),
+                (document.querySelector("#pointrm5").textContent = 0),
+                (document.querySelector("#pointrm2").textContent = 0),
+                (document.querySelector("#pointtm11").textContent = 0),
+                (document.querySelector("#pointtm8").textContent = 0),
+                (document.querySelector("#pointtm5").textContent = 0),
+                (document.querySelector("#pointtm2").textContent = 0),
+                (document.querySelector("#pointlm12").textContent = 0),
+                (document.querySelector("#pointlm10").textContent = 0),
+                (document.querySelector("#pointlm9").textContent = 0),
+                (document.querySelector("#pointlm7").textContent = 0),
+                (document.querySelector("#pointlm6").textContent = 0),
+                (document.querySelector("#pointlm4").textContent = 0),
+                (document.querySelector("#pointlm3").textContent = 0),
+                (document.querySelector("#pointlm1").textContent = 0),
+                (document.querySelector("#pointrm6").textContent = 0),
+                (document.querySelector("#pointrm4").textContent = 0),
+                (document.querySelector("#pointrm3").textContent = 0),
+                (document.querySelector("#pointrm1").textContent = 0),
+                (document.querySelector("#pointbm12").textContent = 0),
+                (document.querySelector("#pointbm10").textContent = 0),
+                (document.querySelector("#pointbm9").textContent = 0),
+                (document.querySelector("#pointbm7").textContent = 0),
+                (document.querySelector("#pointbm6").textContent = 0),
+                (document.querySelector("#pointbm4").textContent = 0),
+                (document.querySelector("#pointbm3").textContent = 0),
+                (document.querySelector("#pointbm1").textContent = 0),
+                (document.querySelector("#pointrm12").textContent = 0),
+                (document.querySelector("#pointrm10").textContent = 0),
+                (document.querySelector("#pointrm9").textContent = 0),
+                (document.querySelector("#pointrm7").textContent = 0),
+                (document.querySelector("#pointtm12").textContent = 0),
+                (document.querySelector("#pointtm10").textContent = 0),
+                (document.querySelector("#pointtm9").textContent = 0),
+                (document.querySelector("#pointtm7").textContent = 0),
+                (document.querySelector("#pointtm6").textContent = 0),
+                (document.querySelector("#pointtm4").textContent = 0),
+                (document.querySelector("#pointtm3").textContent = 0),
+                (document.querySelector("#pointtm1").textContent = 0),
+                (document.querySelector("#otp-nebo").textContent = 0),
+                (document.querySelector("#otp-sum-nz").textContent = 0),
+                (document.querySelector("#otp-man").textContent = 0),
+                (document.querySelector("#otp-woman").textContent = 0),
+                (document.querySelector("#otp-sum-mw").textContent = 0),
+                (document.querySelector("#calc-otp-sila-roda").textContent = 0),
+                (document.querySelector("#calc-otp-vnut-sila").textContent = 0),
+                (document.querySelector("#calc-otp-vnut-sila2").textContent = 0),
+                (document.querySelector("#calc-otp-vnut-sila3").textContent = 0),
+                // (document.querySelector("#circle_d2").textContent = 0),
+                // (document.querySelector("#circle_d3").textContent = 0),
+                (document.querySelector("#otp-otp-du-m").textContent = 0),
+                (document.querySelector("#otp-otp-du-w").textContent = 0),
+                (document.querySelector("#otp-otp-pl-w").textContent = 0),
+                (document.querySelector("#otp-otp-pl-m").textContent = 0),
+                (document.querySelector("#calc-otp-man1").textContent = 0),
+                (document.querySelector("#calc-otp-man2").textContent = 0),
+                (document.querySelector("#calc-otp-man3").textContent = 0),
+                (document.querySelector("#calc-otp-woman1").textContent = 0),
+                (document.querySelector("#calc-otp-woman2").textContent = 0),
+                (document.querySelector("#calc-otp-woman3").textContent = 0),
+                (document.querySelector("#otp-otp-du").textContent = 0),
+        (document.querySelector("#otp-otp-du").textContent = 0),
+        (document.querySelector("#otp-otp-pl").textContent = 0),
+        (document.querySelector(".physics-row-1").textContent = 0),
+        (document.querySelector(".energy-row-1").textContent = 0),
+        (document.querySelector(".key-row-1").textContent = 0),
+        (document.querySelector(".physics-row-2").textContent = 0),
+        (document.querySelector(".energy-row-2").textContent = 0),
+        (document.querySelector(".key-row-2").textContent = 0),
+        (document.querySelector(".physics-row-3").textContent = 0),
+        (document.querySelector(".energy-row-3").textContent = 0),
+        (document.querySelector(".key-row-3").textContent = 0),
+        (document.querySelector(".physics-row-4").textContent = 0),
+        (document.querySelector(".energy-row-4").textContent = 0),
+        (document.querySelector(".key-row-4").textContent = 0),
+        (document.querySelector(".physics-row-5").textContent = 0),
+        (document.querySelector(".energy-row-5").textContent = 0),
+        (document.querySelector(".key-row-5").textContent = 0),
+        (document.querySelector(".physics-row-6").textContent = 0),
+        (document.querySelector(".energy-row-6").textContent = 0),
+        (document.querySelector(".key-row-6").textContent = 0),
+        (document.querySelector(".physics-row-7").textContent = 0),
+        (document.querySelector(".energy-row-7").textContent = 0),
+        (document.querySelector(".key-row-7").textContent = 0),
+        (document.querySelector(".physics-row-8").textContent = 0),
+        (document.querySelector(".energy-row-8").textContent = 0),
+        (document.querySelector(".key-row-8").textContent = 0),
+                document.querySelector(".calc-download-btn").classList.add("calc-hidden")
+        q();
+    }),
+            (document.querySelector(".calc-download-btn").onclick = () => {
+              var w = document.getElementById("htmlContent").offsetWidth;
+              var h = document.getElementById("htmlContent").offsetHeight;
+              console.log(w,h)
+              $('.calc-container__slide,.calc-inp-matriza').addClass('active');
+              html2canvas(document.getElementById("htmlContent"),{
+                width: w,
+                height: h,
+                // scale: 1,
+                // windowWidth: 1920,
+                // imageTimeout: 0,
+              }).then(function(canvas) {
+                if (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase())) {
+                  window.print();
+                } else {
+                  var doc = new jsPDF('l', 'px',[1440,1440*h/w]);
+                  doc.addImage(canvas.toDataURL("image/png"), 'PNG', 0, 0,1440,1440*h/w);
+                  doc.save('Розрахунок матриці долі від Анни Хоменко.pdf');
+                }
+              });
+              $('.calc-container__slide,.calc-inp-matriza').removeClass('active');
+            }),
+            (document.querySelector("#point-2").textContent = 0),
+            (document.querySelector("#point-1").textContent = 0),
+            (document.querySelector("#point-3").textContent = 0),
+            (document.querySelector("#point-4").textContent = 0),
+            (document.querySelector("#point-5").textContent = 0),
+            (document.querySelector("#point-11").textContent = 0),
+            (document.querySelector("#point-10").textContent = 0),
+            (document.querySelector("#point-12").textContent = 0),
+            (document.querySelector("#point-13").textContent = 0),
+            (document.querySelector("#point-14").textContent = 0),
+            (document.querySelector("#point-19").textContent = 0),
+            (document.querySelector("#point-16").textContent = 0),
+            (document.querySelector("#point-18").textContent = 0),
+            (document.querySelector("#point-22").textContent = 0),
+            (document.querySelector("#point-15").textContent = 0),
+            (document.querySelector("#point-17").textContent = 0),
+            (document.querySelector("#point-21").textContent = 0),
+            (document.querySelector("#point-6").textContent = 0),
+            (document.querySelector("#point-7").textContent = 0),
+            (document.querySelector("#point-8").textContent = 0),
+            (document.querySelector("#point-9").textContent = 0),
+            (document.querySelector("#point-20").textContent = 0),
+            (document.querySelector("#point-tl1").textContent = 0),
+            (document.querySelector("#point-tl2").textContent = 0),
+            (document.querySelector("#point-tr2").textContent = 0),
+            (document.querySelector("#point-tr1").textContent = 0),
+            (document.querySelector("#point-br2").textContent = 0),
+            (document.querySelector("#point-br1").textContent = 0),
+            (document.querySelector("#point-bl1").textContent = 0),
+            (document.querySelector("#point-bl2").textContent = 0),
+            (document.querySelector("#otp-otp-du-m").textContent = 0),
+            (document.querySelector("#otp-otp-du-w").textContent = 0),
+            (document.querySelector("#otp-otp-pl-w").textContent = 0),
+            (document.querySelector("#otp-otp-pl-m").textContent = 0),
+            (document.querySelector("#point-tl1").textContent = 0),
+            (document.querySelector("#point-tl2").textContent = 0),
+            (document.querySelector("#point-tr2").textContent = 0),
+            (document.querySelector("#point-tr1").textContent = 0),
+            (document.querySelector("#point-br2").textContent = 0),
+            (document.querySelector("#point-br1").textContent = 0),
+            (document.querySelector("#point-bl1").textContent = 0),
+            (document.querySelector("#point-bl2").textContent = 0),
+            (document.querySelector("#point-lt").textContent = 0),
+            (document.querySelector("#point-lb").textContent = 0),
+            (document.querySelector("#point-bl").textContent = 0),
+            (document.querySelector("#point-br").textContent = 0),
+            (document.querySelector("#point-rb").textContent = 0),
+            (document.querySelector("#point-rt").textContent = 0),
+            (document.querySelector("#point-tr").textContent = 0),
+            (document.querySelector("#point-tl").textContent = 0),
+            (document.querySelector("#pointlm11").textContent = 0),
+            (document.querySelector("#pointlm8").textContent = 0),
+            (document.querySelector("#pointlm8").textContent = 0),
+            (document.querySelector("#pointlm5").textContent = 0),
+            (document.querySelector("#pointlm2").textContent = 0),
+            (document.querySelector("#pointbm11").textContent = 0),
+            (document.querySelector("#pointbm8").textContent = 0),
+            (document.querySelector("#pointbm5").textContent = 0),
+            (document.querySelector("#pointbm2").textContent = 0),
+            (document.querySelector("#pointrm11").textContent = 0),
+            (document.querySelector("#pointrm8").textContent = 0),
+            (document.querySelector("#pointrm5").textContent = 0),
+            (document.querySelector("#pointrm2").textContent = 0),
+            (document.querySelector("#pointtm11").textContent = 0),
+            (document.querySelector("#pointtm8").textContent = 0),
+            (document.querySelector("#pointtm5").textContent = 0),
+            (document.querySelector("#pointtm2").textContent = 0),
+            (document.querySelector("#pointlm12").textContent = 0),
+            (document.querySelector("#pointlm10").textContent = 0),
+            (document.querySelector("#pointlm9").textContent = 0),
+            (document.querySelector("#pointlm7").textContent = 0),
+            (document.querySelector("#pointlm6").textContent = 0),
+            (document.querySelector("#pointlm4").textContent = 0),
+            (document.querySelector("#pointlm3").textContent = 0),
+            (document.querySelector("#pointlm1").textContent = 0),
+            (document.querySelector("#pointrm6").textContent = 0),
+            (document.querySelector("#pointrm4").textContent = 0),
+            (document.querySelector("#pointrm3").textContent = 0),
+            (document.querySelector("#pointrm1").textContent = 0),
+            (document.querySelector("#pointbm12").textContent = 0),
+            (document.querySelector("#pointbm10").textContent = 0),
+            (document.querySelector("#pointbm9").textContent = 0),
+            (document.querySelector("#pointbm7").textContent = 0),
+            (document.querySelector("#pointbm6").textContent = 0),
+            (document.querySelector("#pointbm4").textContent = 0),
+            (document.querySelector("#pointbm3").textContent = 0),
+            (document.querySelector("#pointbm1").textContent = 0),
+            (document.querySelector("#pointrm12").textContent = 0),
+            (document.querySelector("#pointrm10").textContent = 0),
+            (document.querySelector("#pointrm9").textContent = 0),
+            (document.querySelector("#pointrm7").textContent = 0),
+            (document.querySelector("#pointtm12").textContent = 0),
+            (document.querySelector("#pointtm10").textContent = 0),
+            (document.querySelector("#pointtm9").textContent = 0),
+            (document.querySelector("#pointtm7").textContent = 0),
+            (document.querySelector("#pointtm6").textContent = 0),
+            (document.querySelector("#pointtm4").textContent = 0),
+            (document.querySelector("#pointtm3").textContent = 0),
+            (document.querySelector("#pointtm1").textContent = 0),
+            (document.querySelector("#otp-zemly").textContent = 0),
+            (document.querySelector("#otp-nebo").textContent = 0),
+            (document.querySelector("#otp-sum-nz").textContent = 0),
+            (document.querySelector("#otp-man").textContent = 0),
+            (document.querySelector("#otp-woman").textContent = 0),
+            (document.querySelector("#otp-sum-mw").textContent = 0),
+            (document.querySelector("#calc-otp-sila-roda").textContent = 0),
+            (document.querySelector("#calc-otp-vnut-sila").textContent = 0),
+            (document.querySelector("#calc-otp-vnut-sila2").textContent = 0),
+            (document.querySelector("#calc-otp-vnut-sila3").textContent = 0),
+            // (document.querySelector("#circle_d2").textContent = 0),
+            // (document.querySelector("#circle_d3").textContent = 0),
+            (document.querySelector("#calc-otp-man1").textContent = 0),
+            (document.querySelector("#calc-otp-man2").textContent = 0),
+            (document.querySelector("#calc-otp-man3").textContent = 0),
+            (document.querySelector("#calc-otp-woman1").textContent = 0),
+            (document.querySelector("#calc-otp-woman2").textContent = 0),
+    (document.querySelector("#calc-otp-woman3").textContent = 0),
+    (document.querySelector("#otp-otp-du").textContent = 0),
+    (document.querySelector("#otp-otp-du").textContent = 0),
+    (document.querySelector("#otp-otp-pl").textContent = 0),
+    (document.querySelector(".physics-row-1").textContent = 0),
+    (document.querySelector(".energy-row-1").textContent = 0),
+    (document.querySelector(".key-row-1").textContent = 0),
+    (document.querySelector(".physics-row-2").textContent = 0),
+    (document.querySelector(".energy-row-2").textContent = 0),
+    (document.querySelector(".key-row-2").textContent = 0),
+    (document.querySelector(".physics-row-3").textContent = 0),
+    (document.querySelector(".energy-row-3").textContent = 0),
+    (document.querySelector(".key-row-3").textContent = 0),
+    (document.querySelector(".physics-row-4").textContent = 0),
+    (document.querySelector(".energy-row-4").textContent = 0),
+    (document.querySelector(".key-row-4").textContent = 0),
+    (document.querySelector(".physics-row-5").textContent = 0),
+    (document.querySelector(".energy-row-5").textContent = 0),
+    (document.querySelector(".key-row-5").textContent = 0),
+    (document.querySelector(".physics-row-6").textContent = 0),
+    (document.querySelector(".energy-row-6").textContent = 0),
+    (document.querySelector(".key-row-6").textContent = 0),
+    (document.querySelector(".physics-row-7").textContent = 0),
+    (document.querySelector(".energy-row-7").textContent = 0),
+    (document.querySelector(".key-row-7").textContent = 0),
+    (document.querySelector(".physics-row-8").textContent = 0),
+    (document.querySelector(".energy-row-8").textContent = 0),
+    (document.querySelector(".key-row-8").textContent = 0),
+    q();
+  });
+
+  function getCanvas() {
+    form.width((a4[0] * 1.33333) - 80).css('max-width', 'none');
+    return html2canvas(form, {
+      imageTimeout: 2000,
+      removeContainer: true
+    });
+  }
+
+  function center(el,value) {
+    let re = /translate\((.*?)\)/
+    if(Number($(el).text()) > 9) {
+
+      let currTransf = ($(el).attr('transform').match(re)[1]).split(' ');
+      console.log($(el),currTransf,(Math.round(currTransf[0].replace(', ')) - Number(value)));
+      $(el).attr('transform','translate('+ (Math.round(currTransf[0].replace(', ')) - Number(value)) +' '+Number(currTransf[1]) +')')
+    }
+  }
+
+
+</script>
+</body>
+</html>

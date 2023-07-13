@@ -1,0 +1,33 @@
+body {
+  font-size: 14px;
+  line-height: 20px;
+  background: #F5F2FE;
+  color: #080E29;
+}
+
+.container {
+  width: 100% !important;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+*:focus {
+  outline: none !important;
+}
+
+h1, h2, h3, h4, h4, h6, .h1-title, .h2-title, .h3-title, .h4-title, .h5-title, .h6-title {
+  display: block;
+  @include fb;
+  
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 0 auto;
+}
